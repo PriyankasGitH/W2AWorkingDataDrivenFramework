@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-08T16:07:52Z" name="Data Driven Framework" finished-at="2024-06-08T16:08:06Z" duration-ms="14436">
+    <groups>
+    </groups>
+    <test started-at="2024-06-08T16:07:52Z" name="Bank Manager Login Test" finished-at="2024-06-08T16:07:52Z" duration-ms="213">
+      <class name="testcases.BankManagerLoginTest">
+        <test-method signature="loginAsBankManager()[pri:0, instance:testcases.BankManagerLoginTest@1b1637e1]" started-at="2024-06-08T16:07:52Z" name="loginAsBankManager" finished-at="2024-06-08T16:07:52Z" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- testcases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager Login Test -->
+    <test started-at="2024-06-08T16:07:52Z" name="Add Customer Test" finished-at="2024-06-08T16:08:06Z" duration-ms="13841">
+      <class name="testcases.AddCustomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCustomerTest@676f0a60]" started-at="2024-06-08T16:07:48Z" name="setUp" finished-at="2024-06-08T16:07:52Z" duration-ms="3296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@676f0a60]" started-at="2024-06-08T16:07:52Z" name="addCustomer" data-provider="dp" finished-at="2024-06-08T16:07:57Z" duration-ms="4823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arora]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A234w4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@676f0a60]" started-at="2024-06-08T16:07:57Z" name="addCustomer" data-provider="dp" finished-at="2024-06-08T16:08:01Z" duration-ms="4467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cory]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Paul]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S3w4w3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@676f0a60]" started-at="2024-06-08T16:08:01Z" name="addCustomer" data-provider="dp" finished-at="2024-06-08T16:08:06Z" duration-ms="4531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rakesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S3432]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddCustomerTest@676f0a60]" started-at="2024-06-08T16:08:06Z" name="tearDown" finished-at="2024-06-08T16:08:07Z" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+  </suite> <!-- Data Driven Framework -->
+</testng-results>
